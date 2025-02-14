@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="JesusRiosLopez" content="Piedra, papel, tijera, lagarto, Spok.">
+    <link rel="stylesheet" href="PPTLS.css">
+    <script defer src="JavaScript/PPTLS.js"></script>
+    <title>Piedra, papel, tijera, lagarto, Spok</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Piedra, papel, tijera, lagarto, Spok</h1>
+
+    <fieldset>
+        <legend>Elige con qué quieres jugar</legend>
+        <div>
+                <select name="arma" id="arma">
+                    <option value="1">Piedra</option>
+                    <option value="2">Papel</option>
+                    <option value="3">Tijera</option>
+                    <option value="4">Lagarto</option>
+                    <option value="5">Spock</option>
+                </select>
+                <button class="jugar" id="jugar">Jugar</button>
+        </div>
+    </fieldset>
+    <div class="resultados" id="resultados">
+        <div>
+            <img class="Rpc" id="Rpc">
+            <span class="Vs" id="Vs"></span>
+            <img class="Rjugador" id="Rjugador">   
+        </div>
+        <p class="result" id="result"></p>
+    </div>
+</body>
+</html>
