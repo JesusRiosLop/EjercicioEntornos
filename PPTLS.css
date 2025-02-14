@@ -61,6 +61,13 @@ select{
     margin: 0 10px;
 }
 
+footer{
+    background-color: #282C34;
+    color: white;
+    margin-bottom: 0;
+    padding: 0;
+}
+
 /*Estilos Resultados*/
 
 .Ganajugador{
